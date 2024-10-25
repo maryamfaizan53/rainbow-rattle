@@ -9,15 +9,16 @@ const comfortaa = Comfortaa({
 
 const Newsletter = () => {
   return (
-    <div className="text-center mt-24">
+    <div className="text-center m-24">
       {/* Newsletter Header */}
-      <h1 className={`font-extrabold text-4xl ${comfortaa.className}`}>
-        Newsletter
+      <h1 className={`font-extrabold weight-800 text-4xl ${comfortaa.className}`}>
+        <b>Newsletter</b>
       </h1>
       
       {/* Newsletter Description */}
       <p className={`font-extrabold mt-5 ${comfortaa.className}`}>
-        Get 15% off your first purchase! Plus, be the first to know about sales, new product launches, and exclusive offers!
+       <b> Get 15% off your first purchase! Plus, be the first to know about sales,<br />
+         new product launches, and exclusive offers!</b> 
       </p>
       
       {/* Email Input and Join Button */}
@@ -29,7 +30,7 @@ const Newsletter = () => {
           placeholder="Enter Your Email"
           className="p-2 rounded-lg border border-black"
         />
-        <button className="bg-cyan-700 text-white rounded-lg p-3">
+        <button className="bg-cyan-700 text-white rounded-2xl p-3 px-6">
           Join
         </button>
       </div>

@@ -100,7 +100,7 @@ const Products = () => {
           <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
             <Image
               src="/p5.png"
-              alt="4th product"
+              alt="5th product"
               layout="fill"
               objectFit="cover"
               className="absolute inset-0 z-0 p-2"
@@ -116,7 +116,7 @@ const Products = () => {
           <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
             <Image
               src="/p6.png"
-              alt="4th product"
+              alt="6th product"
               layout="fill"
               objectFit="cover"
               className="absolute inset-0 z-0 p-2"
@@ -132,7 +132,7 @@ const Products = () => {
           <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
             <Image
               src="/p7.png"
-              alt="4th product"
+              alt="7th product"
               layout="fill"
               objectFit="cover"
               className="absolute inset-0 z-0 p-2"
@@ -147,8 +147,8 @@ const Products = () => {
 
           <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
             <Image
-              src="/p7.png"
-              alt="4th product"
+              src="/p8.png"
+              alt="8th product"
               layout="fill"
               objectFit="cover"
               className="absolute inset-0 z-0 p-2"
@@ -170,4 +170,3 @@ const Products = () => {
 }
 
 export default Products;
-
