@@ -27,9 +27,9 @@ const Products = () => {
 
       {/* Products Grid */}
       <section className="container mx-auto py-10 px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols sm:grid-cols md:grid-cols-3 lg:grid-cols-4 gap-4">
           {/* Product Card 1 */}
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px] ">
+          <div className="relative text-white rounded-lg overflow-hidden h-96 ">
             <Image
               src="/p1.png"
               alt="1st product"
@@ -37,17 +37,17 @@ const Products = () => {
               objectFit="center"
               className="absolute inset-0 z-0 p-2"
             />
-            <div className="relative z-10 p-6 bg-black bg-opacity-60">
-              <h2 className="text-xl font-bold mb-2">Special Offer</h2>
-              <p className="text-sm">Discount 60% off</p>
+            <div className="relative z-10 p-6 text-blue-300">
+              <h2 className="text-xl font-bold mb-2"></h2>
+              <p className="text-sm"></p>
               <button className="bg-white text-black px-4 py-2 mt-4 rounded-full hover:bg-gray-800">
-                Shop Now
+                
               </button>
             </div>
           </div>
 
           {/* Repeat Product Cards with Same Dimensions */}
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+          <div className="relative text-white rounded-lg overflow-hidden h-96">
             <Image
               src="/p2.png"
               alt="2nd product"
@@ -55,33 +55,33 @@ const Products = () => {
               objectFit="cover"
               className="absolute inset-0 z-0 p-2"
             />
-            <div className="relative z-10 p-6 bg-black bg-opacity-60">
-              <h2 className="text-xl font-bold mb-2">Casual Comfortwear</h2>
+            <div className="relative z-10 p-6 ">
+              <h2 className="text-xl font-bold mb-2"></h2>
               <a href="#" className="text-sm font-semibold mt-2 hover:underline">
-                Learn More &rarr;
+               
               </a>
             </div>
           </div>
 
           {/* Add more cards as needed */}
           {/* Example with Placeholder Images */}
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+          <div className="relative text-white rounded-lg overflow-hidden h-96">
             <Image
               src="/p3.png"
               alt="3rd product"
               layout="fill"
               objectFit="cover"
-              className="absolute inset-0 z-0 p-2"
+              className="absolute inset-0 z-0 p-2" 
             />
-            <div className="relative z-10 p-6 bg-black bg-opacity-60">
-              <h2 className="text-xl font-bold mb-2">Stylish Outfits</h2>
+            <div className="relative z-10 p-6 ">
+              <h2 className="text-xl font-bold mb-2"></h2>
               <a href="#" className="text-sm font-semibold mt-2 hover:underline">
-                Learn More &rarr;
+                
               </a>
             </div>
           </div>
 
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+          <div className="relative text-white rounded-lg overflow-hidden h-96">
             <Image
               src="/p4.png"
               alt="4th product"
@@ -89,15 +89,15 @@ const Products = () => {
               objectFit="cover"
               className="absolute inset-0 z-0 p-2"
             />
-            <div className="relative z-10 p-6 bg-black bg-opacity-60">
-              <h2 className="text-xl font-bold mb-2">Trendy Collection</h2>
+            <div className="relative z-10 p-6">
+              <h2 className="text-xl font-bold mb-2"></h2>
               <a href="#" className="text-sm font-semibold mt-2 hover:underline">
-                Learn More &rarr;
+                
               </a>
             </div>
           </div>
 
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+          <div className="relative text-white rounded-lg overflow-hidden h-96">
             <Image
               src="/p5.png"
               alt="5th product"
@@ -105,15 +105,15 @@ const Products = () => {
               objectFit="cover"
               className="absolute inset-0 z-0 p-2"
             />
-            <div className="relative z-10 p-6 bg-black bg-opacity-60">
-              <h2 className="text-xl font-bold mb-2">Trendy Collection</h2>
+            <div className="relative z-10 p-6 ">
+              <h2 className="text-xl font-bold mb-2"></h2>
               <a href="#" className="text-sm font-semibold mt-2 hover:underline">
-                Learn More &rarr;
+                
               </a>
             </div>
           </div>
 
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+          <div className="relative text-white rounded-lg overflow-hidden h-96">
             <Image
               src="/p6.png"
               alt="6th product"
@@ -121,15 +121,15 @@ const Products = () => {
               objectFit="cover"
               className="absolute inset-0 z-0 p-2"
             />
-            <div className="relative z-10 p-6 bg-black bg-opacity-60">
-              <h2 className="text-xl font-bold mb-2">Trendy Collection</h2>
+            <div className="relative z-10 p-6">
+              <h2 className="text-xl font-bold mb-2"></h2>
               <a href="#" className="text-sm font-semibold mt-2 hover:underline">
-                Learn More &rarr;
+               
               </a>
             </div>
           </div>
 
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+          <div className="relative text-white rounded-lg overflow-hidden h-96">
             <Image
               src="/p7.png"
               alt="7th product"
@@ -137,15 +137,15 @@ const Products = () => {
               objectFit="cover"
               className="absolute inset-0 z-0 p-2"
             />
-            <div className="relative z-10 p-6 bg-black bg-opacity-60">
-              <h2 className="text-xl font-bold mb-2">Trendy Collection</h2>
+            <div className="relative z-10 p-6">
+              <h2 className="text-xl font-bold mb-2"></h2>
               <a href="#" className="text-sm font-semibold mt-2 hover:underline">
-                Learn More &rarr;
+                
               </a>
             </div>
           </div>
 
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+          <div className="relative text-white rounded-lg overflow-hidden h-96">
             <Image
               src="/p8.png"
               alt="8th product"
@@ -153,10 +153,10 @@ const Products = () => {
               objectFit="cover"
               className="absolute inset-0 z-0 p-2"
             />
-            <div className="relative z-10 p-6 bg-black bg-opacity-60">
-              <h2 className="text-xl font-bold mb-2">Trendy Collection</h2>
+            <div className="relative z-10 p-6">
+              <h2 className="text-xl font-bold mb-2"></h2>
               <a href="#" className="text-sm font-semibold mt-2 hover:underline">
-                Learn More &rarr;
+                
               </a>
             </div>
           </div>

@@ -19,11 +19,11 @@ const Customerfav = () => {
       <p className={`text-center font-extrabold ${comfortaa.className}`}>
         Popular products
       </p>
-      <div className="flex flex-col md:flex-row justify-around items-center my-5 mt-20 gap-4">
-        <Image src="/gallery1.png" alt="gallery 1" width={295} height={398} className="w-full md:w-auto" />
-        <Image src="/gallery2.png" alt="gallery 2" width={295} height={398} className="w-full md:w-auto" />
-        <Image src="/gallery3.png" alt="gallery 3" width={295} height={398} className="w-full md:w-auto" />
-        <Image src="/gallery4.png" alt="gallery 4" width={295} height={398} className="w-full md:w-auto" />
+      <div className="flex flex-col md:flex-row justify-evenly items-center my-5  gap-3">
+        <Image src="/gallery1.png" alt="gallery 1" width={400} height={398} className="" />
+        <Image src="/gallery2.png" alt="gallery 2" width={400} height={398} className="" />
+        <Image src="/gallery3.png" alt="gallery 3" width={400} height={398} className="" />
+        <Image src="/gallery4.png" alt="gallery 4" width={400} height={398} className="" />
       </div>
     </div>
   )

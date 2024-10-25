@@ -15,23 +15,24 @@ const Customerreviews = () => {
         <Image
           src="/review1.png"
           alt="client reviews"
-          width={400}
-          height={216}
-          className="w-full md:w-auto"
+          width={600}
+          height={616}
+          objectFit='center'
+          className=" "
         />
         <Image
           src="/review2.png"
           alt="client reviews"
-          width={400}
-          height={216}
-          className="w-full md:w-auto"
+          width={600}
+          height={616}
+          className=""
         />
         <Image
           src="/review3.png"
           alt="client reviews"
-          width={400}
-          height={216}
-          className="w-full md:w-auto"
+          width={600}
+          height={616}
+          className=""
         />
       </div>
     </div>
