@@ -11,7 +11,7 @@ const comfortaa = Comfortaa({
 const Banners = () => {
   return (
     <div className={`p-4 ${comfortaa.className}`}>
-      {/* Banners */}
+     
       <div className="flex flex-col md:flex-row items-center justify-around w-full gap-4">
         <div className="w-full md:w-1/2">
           <Image

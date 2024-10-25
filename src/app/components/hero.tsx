@@ -17,7 +17,7 @@ const Hero = () => {
           src="/hero.png"
           alt="hero picture"
           fill
-          className="object-cover w-full h-full"
+          className="object-cover  object-center w-full h-full"
         />
 
         {/* Overlay Content on Hero */}

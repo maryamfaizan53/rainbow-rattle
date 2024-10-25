@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
 
       
-      <nav className="p-5 flex items-center justify-between h-20">
+      <nav className="p-5 flex items-center justify-between h-20 ">
         {/* Brand Logo */}
         <Image
           src="/brandlogonav.png"
