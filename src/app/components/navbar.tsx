@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Toolbar Section */}
-      <div className="relative w-full h-[50px] m-0">
+      <div className="relative w-full h-[60px] m-0">
         {/* Toolbar Image */}
         <Image
           src="/toolbar.png"
@@ -31,8 +31,8 @@ const Navbar = () => {
             <Image
               src="/FreeShipping.png"
               alt="Free shipping"
-              width={30}
-              height={30}
+              width={60}
+              height={60}
             />
             <p className="ml-2 text-sm sm:text-lg font-bold">
               Free shipping on orders over $150
@@ -51,9 +51,9 @@ const Navbar = () => {
         <Image
           src="/brandlogonav.png"
           alt="brand logo"
-          width={60}
-          height={50}
-          className="sm:w-20 sm:h-16"
+          width={120}
+          height={120}
+          className="sm:w-40 sm:h-26"
         />
 
         {/* Hamburger Icon for mobile */}
