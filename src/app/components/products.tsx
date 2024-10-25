@@ -29,12 +29,12 @@ const Products = () => {
       <section className="container mx-auto py-10 px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {/* Product Card 1 */}
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px] shadow-lg">
+          <div className="relative text-white rounded-lg overflow-hidden h-[400px] ">
             <Image
               src="/p1.png"
               alt="1st product"
               layout="fill"
-              objectFit="cover"
+              objectFit="center"
               className="absolute inset-0 z-0 p-2"
             />
             <div className="relative z-10 p-6 bg-black bg-opacity-60">
@@ -47,7 +47,7 @@ const Products = () => {
           </div>
 
           {/* Repeat Product Cards with Same Dimensions */}
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px] shadow-lg">
+          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
             <Image
               src="/p2.png"
               alt="2nd product"
@@ -65,7 +65,7 @@ const Products = () => {
 
           {/* Add more cards as needed */}
           {/* Example with Placeholder Images */}
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px] shadow-lg">
+          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
             <Image
               src="/p3.png"
               alt="3rd product"
@@ -81,7 +81,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className="relative text-white rounded-lg overflow-hidden h-[400px] shadow-lg">
+          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
             <Image
               src="/p4.png"
               alt="4th product"
