@@ -96,6 +96,73 @@ const Products = () => {
               </a>
             </div>
           </div>
+
+          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+            <Image
+              src="/p5.png"
+              alt="4th product"
+              layout="fill"
+              objectFit="cover"
+              className="absolute inset-0 z-0 p-2"
+            />
+            <div className="relative z-10 p-6 bg-black bg-opacity-60">
+              <h2 className="text-xl font-bold mb-2">Trendy Collection</h2>
+              <a href="#" className="text-sm font-semibold mt-2 hover:underline">
+                Learn More &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+            <Image
+              src="/p6.png"
+              alt="4th product"
+              layout="fill"
+              objectFit="cover"
+              className="absolute inset-0 z-0 p-2"
+            />
+            <div className="relative z-10 p-6 bg-black bg-opacity-60">
+              <h2 className="text-xl font-bold mb-2">Trendy Collection</h2>
+              <a href="#" className="text-sm font-semibold mt-2 hover:underline">
+                Learn More &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+            <Image
+              src="/p7.png"
+              alt="4th product"
+              layout="fill"
+              objectFit="cover"
+              className="absolute inset-0 z-0 p-2"
+            />
+            <div className="relative z-10 p-6 bg-black bg-opacity-60">
+              <h2 className="text-xl font-bold mb-2">Trendy Collection</h2>
+              <a href="#" className="text-sm font-semibold mt-2 hover:underline">
+                Learn More &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div className="relative text-white rounded-lg overflow-hidden h-[400px]">
+            <Image
+              src="/p7.png"
+              alt="4th product"
+              layout="fill"
+              objectFit="cover"
+              className="absolute inset-0 z-0 p-2"
+            />
+            <div className="relative z-10 p-6 bg-black bg-opacity-60">
+              <h2 className="text-xl font-bold mb-2">Trendy Collection</h2>
+              <a href="#" className="text-sm font-semibold mt-2 hover:underline">
+                Learn More &rarr;
+              </a>
+            </div>
+          </div>
+
+
+
         </div>
       </section>
     </div>
