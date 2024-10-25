@@ -1,26 +1,26 @@
 "use client";
-import React from "react";
-import Navbar from "../../components/navbar";
-import Hero from "../../components/hero";
-import Toytypes from "../../components/toytypes";
-import Products from "../../components/products";
-import Banners from "../../components/banners";
-import Customerfav from "../../components/customerfav";
-import CustomerCare from "../../components/customerCare";
- import Footer from "../../components/footer";
-import Customerreviews from "../../components/customerreviews";
-import Photoshoot from "../../components/photoshoot";
-import Newsletter from "../../components/newsletter";
-import Head from "next/head";  // Import Head for SEO
+// import React from "react";
+import Navbar from "./components/navbar";
+import Hero from "./components/hero";
+import Toytypes from "./components/toytypes";
+import Products from "./components/products";
+import Banners from "./components/banners";
+import Customerfav from "./components/customerfav";
+import CustomerCare from "./components/customerCare";
+ import Footer from "./components/footer";
+import Customerreviews from "./components/customerreviews";
+import Photoshoot from "./components/photoshoot";
+import Newsletter from "./components/newsletter";
+// import Head from "next/head";  // Import Head for SEO
 
 const Home = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Rianbow Rattle</title>
         <meta name="description" content="A multi toys store" />
         <meta name="keywords" content="toys, products, shop, kids" />
-      </Head>
+      </Head> */}
       <Navbar />
       <Hero />
       <Toytypes />
