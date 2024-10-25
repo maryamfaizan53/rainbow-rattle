@@ -11,7 +11,7 @@ const comfortaa = Comfortaa({
 const Footer = () => {
   return (
     <footer className={`relative flex flex-col md:flex-row justify-between items-start w-full px-6 md:px-10 py-12 space-y-12 md:space-y-0 ${comfortaa.className}`}>
-      {/* Background Image */}
+     
       <Image
         src="/footerbg.png"
         alt="background picture"
@@ -19,7 +19,7 @@ const Footer = () => {
         className="object-cover w-full h-full absolute inset-0 -z-10"
       />
       
-      {/* Left Section: Logo and Social Media */}
+     
       <div className="flex flex-col items-start space-y-4 md:w-1/3">
         <Image
           src="/logo2.png"

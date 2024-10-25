@@ -10,18 +10,18 @@ const comfortaa = Comfortaa({
 const Newsletter = () => {
   return (
     <div className="text-center m-24">
-      {/* Newsletter Header */}
+      
       <h1 className={`font-extrabold weight-800 text-4xl ${comfortaa.className}`}>
         <b>Newsletter</b>
       </h1>
       
-      {/* Newsletter Description */}
+      
       <p className={`font-extrabold mt-5 ${comfortaa.className}`}>
        <b> Get 15% off your first purchase! Plus, be the first to know about sales,<br />
          new product launches, and exclusive offers!</b> 
       </p>
       
-      {/* Email Input and Join Button */}
+      
       <div className="mt-8 flex justify-center space-x-3">
         <input
           type="email"

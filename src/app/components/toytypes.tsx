@@ -11,7 +11,7 @@ const comfortaa = Comfortaa({
 const Toytypes = () => {
   return (
     <div>
-      {/* Toy Types Section */}
+      
       <div className="text-center mt-16 px-4">
         <h1 className={`font-extrabold text-2xl md:text-4xl ${comfortaa.className}`}>
           Find The Perfect Toy

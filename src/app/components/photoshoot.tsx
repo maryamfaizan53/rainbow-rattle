@@ -11,7 +11,7 @@ const comfortaa = Comfortaa({
 const Photoshoot = () => {
   return (
     <div> 
-      {/* Recent Photoshoots */}
+      
       <div className="text-center mt-24">
         <h1 className={`font-extrabold text-4xl ${comfortaa.className}`}>
           Recent Photoshoots
@@ -20,7 +20,7 @@ const Photoshoot = () => {
           Check Gallery
         </p>
         
-        {/* Photo Gallery */}
+        
         <div className="flex justify-around mt-20">
           <Image src="/ps1.png" alt="photoshoot 1" width={360} height={360} />
           <Image src="/ps2.png" alt="photoshoot 2" width={360} height={360} />

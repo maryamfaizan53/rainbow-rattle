@@ -13,9 +13,9 @@ const Navbar = () => {
 
   return (
     <div>
-      {/* Toolbar Section */}
+      
       <div className="relative w-full h-[60px] m-0">
-        {/* Toolbar Image */}
+        
         <Image
           src="/toolbar.png"
           alt="toolbar"
@@ -23,7 +23,7 @@ const Navbar = () => {
           className="object-cover w-full h-full"
         />
 
-        {/* Free Shipping overlay */}
+       
         <div
           className={`absolute top-0 left-0 w-full h-full flex items-center justify-between px-5 ${comfortaa.className}`}
         >
@@ -45,7 +45,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Main Navbar */}
+      
       <nav className="p-5 flex items-center justify-between h-20">
         {/* Brand Logo */}
         <Image
@@ -56,12 +56,12 @@ const Navbar = () => {
           className="sm:w-40 sm:h-26"
         />
 
-        {/* Hamburger Icon for mobile */}
+        
         <div className="sm:hidden" onClick={() => setIsOpen(!isOpen)}>
           <Image src="/hamburger-icon.png" alt="menu" width={30} height={30} />
         </div>
 
-        {/* Navigation Links */}
+        
         <ul className={`flex-col sm:flex-row flex items-center space-y-5 sm:space-y-0 sm:space-x-10 
             ${isOpen ? "flex" : "hidden"} sm:flex text-base sm:text-lg`}>
           <li className="cursor-pointer">Home</li>
@@ -71,7 +71,7 @@ const Navbar = () => {
           <li className="cursor-pointer">Contact</li>
         </ul>
 
-        {/* Search Bar */}
+       
         <div className="hidden sm:flex items-center ml-5 text-black">
           <Image
             src="/searchlogo.png"
