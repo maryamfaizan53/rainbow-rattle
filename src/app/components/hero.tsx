@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div>
       {/* Hero Section */}
-      <div className="relative w-full h-[570px]">
+      <div className="relative w-full h-[570px] mt-2">
         <Image
           src="/hero.png"
           alt="hero picture"

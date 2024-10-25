@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div>
       
-      <div className="relative w-full h-[60px] m-0">
+      <div className="relative w-full h-[60px] m-0 mb-2">
         
         <Image
           src="/toolbar.png"
