@@ -22,10 +22,10 @@ const Toytypes = () => {
 
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-10 md:mt-20 place-items-center">
-          <Image src="/cat4.png" alt="Category 1" width={120} height={120} className="w-24 h-24 md:w-36 md:h-36"/>
-          <Image src="/cat4.png" alt="Category 2" width={120} height={120} className="w-24 h-24 md:w-36 md:h-36"/>
-          <Image src="/cat4.png" alt="Category 3" width={120} height={120} className="w-24 h-24 md:w-36 md:h-36"/>
-          <Image src="/cat5.png" alt="Category 4" width={120} height={120} className="w-24 h-24 md:w-36 md:h-36"/>
+          <Image src="/cat1.png" alt="Category 1" width={120} height={120} className="w-24 h-24 md:w-36 md:h-36"/>
+          <Image src="/cat2.png" alt="Category 2" width={120} height={120} className="w-24 h-24 md:w-36 md:h-36"/>
+          <Image src="/cat3.png" alt="Category 3" width={120} height={120} className="w-24 h-24 md:w-36 md:h-36"/>
+          <Image src="/cat4.png" alt="Category 4" width={120} height={120} className="w-24 h-24 md:w-36 md:h-36"/>
           <Image src="/cat5.png" alt="Category 5" width={120} height={120} className="w-24 h-24 md:w-36 md:h-36"/>
         </div>
       </div>
